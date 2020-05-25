@@ -24,8 +24,7 @@
         },
         "landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/ea97c3f9f55b4e128fcb9d77eca63095_1",
         "theme": ["geospatial"],
-        "spatial": "{"type": "Feature",
-      "geometry": {"type":"Polygon","coordinate":[[[175.2158, -37.8327], [175.3311, -37.8327], [175.3311, -37.7089], [175.2158, -37.7089],[175.2158, -37.8327]]]}}",
+        "spatial": "{\"type\": \"Point\", \"coordinates\":[[[175.2158, -37.8327], [175.3311, -37.8327], [175.3311, -37.7089], [175.2158, -37.7089],[175.2158, -37.8327]]]}",
         "distribution": [
             {
                 "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/ea97c3f9f55b4e128fcb9d77eca63095_1",
