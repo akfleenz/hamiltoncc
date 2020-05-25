@@ -6,7 +6,7 @@
       "dataset":[
     {
         "title": "Wastewater Abandoned Main - Hamilton City Council",
-        "description": "This layer is part of Hamilton City Council's Wastewater Dataset.",
+        "description": "This layer is part of Hamilton City Council's Wastewater Dataset",
         "identifier": "http://data-waikatolass.opendata.arcgis.com/datasets/ea97c3f9f55b4e128fcb9d77eca63095_1",
         "license": "https://creativecommons.org/licenses/by/4.0",
         "keyword": [
@@ -14,8 +14,8 @@
             "utilities",
             "wastewater"
         ],
-        "issued": "2019-10-21",
-        "modified": "2019-10-21",
+        "issued": "21-10-2019",
+        "modified": "21-10-2019",
         "publisher": {
             "name": "Hamilton City Council"
         },
@@ -38,22 +38,22 @@
                 "title": "Esri Rest API"
             },
             {
-                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/ea97c3f9f55b4e128fcb9d77eca63095_1.geojson?outSR={\"latestWkid\":2193,\"wkid\":2193}",
+                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/ea97c3f9f55b4e128fcb9d77eca63095_1.geojson",
                 "format": "GeoJSON",
                 "title": "GeoJSON"
             },
             {
-                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/ea97c3f9f55b4e128fcb9d77eca63095_1.csv?outSR={\"latestWkid\":2193,\"wkid\":2193}",
+                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/ea97c3f9f55b4e128fcb9d77eca63095_1.csv",
                 "format": "CSV",
                 "title": "CSV"
             },
             {
-                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/ea97c3f9f55b4e128fcb9d77eca63095_1.kml?outSR={\"latestWkid\":2193,\"wkid\":2193}",
+                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/ea97c3f9f55b4e128fcb9d77eca63095_1.kml",
                 "format": "KML",
                 "title": "KML"
             },
             {
-                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/ea97c3f9f55b4e128fcb9d77eca63095_1.zip?outSR={\"latestWkid\":2193,\"wkid\":2193}",
+                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/ea97c3f9f55b4e128fcb9d77eca63095_1.zip",
                 "format": "ZIP",
                 "title": "Shapefile"
             }
