@@ -1,154 +1,989 @@
 {
-      "@context": "https://www.data.govt.nz/catalog.jsonld",
-      "@id": "https://www.acc.co.nz/data.json",
-      "@type": "dcat:Catalog",
-      "conformsTo": "https://www.data.govt.nz/toolkit/schema",
-      "dataset":[
-    {
-        "title": "Excess Dog Register",
-        "description": "Information about multi-dog permits.",
-        "identifier": "http://data-waikatolass.opendata.arcgis.com/datasets/ccec4307e750496e91588b26c3aec3fc_0",
-        "keyword": [
-            "excessdogregister",
-            "hamilton city council",
-            "regulatory"
-        ],
-        "issued": "2020-04-10T06:13:38.000Z",
-        "modified": "2020-06-01T20:01:45.000Z",
-        "contactPoint": {
-            "fn": "HamiltonCityCouncil"
-        },
-        "landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/ccec4307e750496e91588b26c3aec3fc_0",
-        "theme": "[\"geospatial\"]",
-        "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[174.4155, -38.7553], [177.0977, -38.7553], [177.0977, -36.9226], [174.4155, -36.9226], [174.4155, -38.7553]]]}",
-        "distribution": [
-            {
-                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/ccec4307e750496e91588b26c3aec3fc_0",
-                "format": "HTML",
-                "title": "ArcGIS Hub Dataset"
-            },
-            {
-                "downloadURL": "https://services1.arcgis.com/R6s0QqCMQdwKY6yp/arcgis/rest/services/Excess_Dog_Register/FeatureServer/0",
-                "format": "Esri REST",
-                "title": "Esri Rest API"
-            },
-            {
-                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/ccec4307e750496e91588b26c3aec3fc_0.geojson",
-                "format": "GeoJSON",
-                "title": "GeoJSON"
-            },
-            {
-                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/ccec4307e750496e91588b26c3aec3fc_0.csv",
-                "format": "CSV",
-                "title": "CSV"
-            }
-        ]
-    },
-    {
-        "title": "Owner Classification Event",
-        "description": "Information about the type of events leading to the classification of dogs as menacing or dangerous.",
-        "identifier": "http://data-waikatolass.opendata.arcgis.com/datasets/f9a5ed0ccb8949728aae974e2eebb8f4_0",
-        "keyword": [
-            "hamilton city council",
-            "ownerclassificationevent",
-            "regulatory"
-        ],
-        "issued": "2020-04-10T06:30:59.000Z",
-        "modified": "2020-06-01T20:01:48.000Z",
-        "contactPoint": {
-            "fn": "Hamilton City Council"
-        },
-        "landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/f9a5ed0ccb8949728aae974e2eebb8f4_0",
-        "theme": "[\"geospatial\"]",
-        "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[174.4155, -38.7553], [177.0977, -38.7553], [177.0977, -36.9226], [174.4155, -36.9226], [174.4155, -38.7553]]]}",
-        "distribution": [
-            {
-                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/f9a5ed0ccb8949728aae974e2eebb8f4_0",
-                "format": "HTML",
-                "title": "ArcGIS Hub Dataset"
-            },
-            {
-                "downloadURL": "https://services1.arcgis.com/R6s0QqCMQdwKY6yp/arcgis/rest/services/Owner_Classification_Event/FeatureServer/0",
-                "format": "Esri REST",
-                "title": "Esri Rest API"
-            },
-            {
-                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/f9a5ed0ccb8949728aae974e2eebb8f4_0.geojson",
-                "format": "GeoJSON",
-                "title": "GeoJSON"
-            },
-            {
-                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/f9a5ed0ccb8949728aae974e2eebb8f4_0.csv",
-                "format": "CSV",
-                "title": "CSV"
-            }
-        ]
-    },
-    {
-        "title": "Owner Classification Event To Dog",
-        "description": "Information about classification events linked to specific dogs.",
-        "identifier": "http://data-waikatolass.opendata.arcgis.com/datasets/0110dd366cbb4e88838d936b16d8c1f7_0",
-        "keyword": [
-            "hamilton city council",
-            "ownerclassificationeventtodog",
-            "regulatory"
-        ],
-        "issued": "2020-04-10T11:07:45.000Z",
-        "modified": "2020-06-01T20:01:56.000Z",
-        "contactPoint": {
-            "fn": "Hamilton City Council"
-        },
-        "landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/0110dd366cbb4e88838d936b16d8c1f7_0",
-        "theme": "[\"Local Authority\"]",
-        "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[174.4155, -38.7553], [177.0977, -38.7553], [177.0977, -36.9226], [174.4155, -36.9226], [174.4155, -38.7553]]]}",
-        "distribution": [
-            {
-                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/0110dd366cbb4e88838d936b16d8c1f7_0",
-                "format": "HTML",
-                "title": "ArcGIS Hub Dataset"
-            },
-            {
-                "downloadURL": "https://services1.arcgis.com/R6s0QqCMQdwKY6yp/arcgis/rest/services/Owner_Classification_Event_To_Dog/FeatureServer/0",
-                "format": "Esri REST",
-                "title": "Esri Rest API"
-            },
-            {
-                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/0110dd366cbb4e88838d936b16d8c1f7_0.geojson",
-                "format": "GeoJSON",
-                "title": "GeoJSON"
-            },
-            {
-                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/0110dd366cbb4e88838d936b16d8c1f7_0.csv",
-                "format": "CSV",
-                "title": "CSV"
-            }
-        ]
-    },
-    {
-        "title": "Wastewater Abandoned Main - Hamilton City Council",
-        "description": "This layer is part of Hamilton City Council's Wastewater Dataset",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "desalinationwastewater",
-            "local authority"
-        ],
-        "issued": "2020-05-26",
-        "publisher": {
-            "name": "Hamilton City Council"
-        },
-        "contactPoint": {
-            "fn": "Hamilton City Council",
-            "hasEmail": "opendata@hcc.govt.nz"
-        },
-        "accrualPeriodicity": "irregular",
-        "theme": "Local Authority",
-        "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[175.2141, -37.8231], [175.3275, -37.8231], [175.3275, -37.7079], [175.2141, -37.7079], [175.2141, -37.8231]]]}",
-        "distribution": [
-            {
-                "downloadURL": "https://services1.arcgis.com/R6s0QqCMQdwKY6yp/arcgis/rest/services/Wastewater%20Dataset%20-%20Hamilton%20City%20Council/FeatureServer/1",
-                "format": "Esri REST",
-                "title": "ArcGIS Hub Dataset"
-            }
-        ]
-    }
-]}
+	"@context": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld",
+	"@type": "dcat:Catalog",
+	"conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+	"describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+	"dataset": [
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "http://data-waikatolass.opendata.arcgis.com/datasets/0110dd366cbb4e88838d936b16d8c1f7_0",
+			"license": "http://data-waikatolass.opendata.arcgis.com/datasets/0110dd366cbb4e88838d936b16d8c1f7_0/license.json",
+			"landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/0110dd366cbb4e88838d936b16d8c1f7_0",
+			"title": "Owner Classification Event To Dog",
+			"description": "Information about classification events linked to specific dogs.",
+			"keyword": [
+				"Hamilton City Council",
+				"Regulatory",
+				"Owner_Classification_Event_To_Dog"
+			],
+			"issued": "2020-04-10T11:07:45.000Z",
+			"modified": "2020-06-01T20:01:56.000Z",
+			"publisher": {
+				"source": "Hamilton City Council"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Hamilton City Council"
+			},
+			"accessLevel": "public",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/0110dd366cbb4e88838d936b16d8c1f7_0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Esri Rest API",
+					"format": "Esri REST",
+					"mediaType": "application/json",
+					"accessURL": "https://services1.arcgis.com/R6s0QqCMQdwKY6yp/arcgis/rest/services/Owner_Classification_Event_To_Dog/FeatureServer/0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/0110dd366cbb4e88838d936b16d8c1f7_0.geojson"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/0110dd366cbb4e88838d936b16d8c1f7_0.csv"
+				}
+			],
+			"spatial": "174.4155,-38.7553,177.0977,-36.9226",
+			"theme": [
+				"geospatial"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "http://data-waikatolass.opendata.arcgis.com/datasets/f9a5ed0ccb8949728aae974e2eebb8f4_0",
+			"license": "http://data-waikatolass.opendata.arcgis.com/datasets/f9a5ed0ccb8949728aae974e2eebb8f4_0/license.json",
+			"landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/f9a5ed0ccb8949728aae974e2eebb8f4_0",
+			"title": "Owner Classification Event",
+			"description": "Information about the type of events leading to the classification of dogs as menacing or dangerous.",
+			"keyword": [
+				"Hamilton City Council",
+				"Regulatory",
+				"Owner_Classification_Event"
+			],
+			"issued": "2020-04-10T06:30:59.000Z",
+			"modified": "2020-06-01T20:01:48.000Z",
+			"publisher": {
+				"source": "Hamilton City Council"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Hamilton City Council"
+			},
+			"accessLevel": "public",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/f9a5ed0ccb8949728aae974e2eebb8f4_0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Esri Rest API",
+					"format": "Esri REST",
+					"mediaType": "application/json",
+					"accessURL": "https://services1.arcgis.com/R6s0QqCMQdwKY6yp/arcgis/rest/services/Owner_Classification_Event/FeatureServer/0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/f9a5ed0ccb8949728aae974e2eebb8f4_0.geojson"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/f9a5ed0ccb8949728aae974e2eebb8f4_0.csv"
+				}
+			],
+			"spatial": "174.4155,-38.7553,177.0977,-36.9226",
+			"theme": "Local Authority"
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "http://data-waikatolass.opendata.arcgis.com/datasets/11bf0327485d48708890ee1eec474b4f_0",
+			"license": "http://data-waikatolass.opendata.arcgis.com/datasets/11bf0327485d48708890ee1eec474b4f_0/license.json",
+			"landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/11bf0327485d48708890ee1eec474b4f_0",
+			"title": "Dog Complaint To Dog",
+			"description": "",
+			"keyword": [
+				"Hamilton City Council",
+				"Regulatory",
+				"Dog_Complaint_To_Dog"
+			],
+			"issued": "2020-04-10T06:14:03.000Z",
+			"modified": "2020-06-01T20:01:46.000Z",
+			"publisher": {
+				"source": "Hamilton City Council"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "HamiltonCityCouncil"
+			},
+			"accessLevel": "public",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/11bf0327485d48708890ee1eec474b4f_0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Esri Rest API",
+					"format": "Esri REST",
+					"mediaType": "application/json",
+					"accessURL": "https://services1.arcgis.com/R6s0QqCMQdwKY6yp/arcgis/rest/services/Dog_Complaint_To_Dog/FeatureServer/0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/11bf0327485d48708890ee1eec474b4f_0.geojson"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/11bf0327485d48708890ee1eec474b4f_0.csv"
+				}
+			],
+			"spatial": "174.4155,-38.7553,177.0977,-36.9226",
+			"theme": [
+				"geospatial"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "http://data-waikatolass.opendata.arcgis.com/datasets/3b785fc9792c4d3d95131db1d26fde9e_0",
+			"license": "http://data-waikatolass.opendata.arcgis.com/datasets/3b785fc9792c4d3d95131db1d26fde9e_0/license.json",
+			"landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/3b785fc9792c4d3d95131db1d26fde9e_0",
+			"title": "Excess Dog Register To Dog",
+			"description": "\n<div>\n<p>Information linking excess dog permits to dogs.</p>\n<p></p>\n\n</div>\n\n<table border='1'><tr><th><b>Column_Info</b></th></tr><tbody><tr /><tr><td>Dog_Number, int : Animal number</td></tr></tbody></table>\n\n<div>\n\t<p><b>Relationship</b></p>\n</div>\n\n<div><table>This table reference to table <a href='https://data-waikatolass.opendata.arcgis.com/datasets/hcc::dog' rel='nofollow ugc'>Dog</a></table><table>This table reference to table <a href='https://data-waikatolass.opendata.arcgis.com/datasets/hcc::excess-dog-register' rel='nofollow ugc'>Excess_Dog_Register</a></table></div>\n\n\n\n<div>\n\n\n\t<p><b>Disclaimer</b></p>\n\n\t<p>Hamilton City Council does not make any representation or give any warranty as to the accuracy or exhaustiveness of the data released for public download. Levels, locations and dimensions of works depicted in the data may not be accurate due to circumstances not notified to Council. A physical check should be made on all levels, locations and dimensions before starting design or works.</p>\n\n\t<p>Hamilton City Council shall not be liable for any loss, damage, cost or expense (whether direct or indirect) arising from reliance upon or use of any data provided, or Council's failure to provide this data.</p>\n\n\t<p>While you are free to crop, export and re-purpose the data, we ask that you attribute the Hamilton City Council and clearly state that your work is a derivative and not the authoritative data source. Please include the following statement when distributing any work derived from this data:</p>\n\n\t<p>‘This work is derived entirely or in part from Hamilton City Council data; the provided information may be updated at any time, and may at times be out of date, inaccurate, and/or incomplete.'</p>\n</div>",
+			"keyword": [
+				"Hamilton City Council",
+				"Regulatory",
+				"Excess_Dog_Register_To_Dog"
+			],
+			"issued": "2020-04-10T05:29:10.000Z",
+			"modified": "2020-06-01T20:01:25.000Z",
+			"publisher": {
+				"source": "Hamilton City Council"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "HamiltonCityCouncil"
+			},
+			"accessLevel": "public",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/3b785fc9792c4d3d95131db1d26fde9e_0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Esri Rest API",
+					"format": "Esri REST",
+					"mediaType": "application/json",
+					"accessURL": "https://services1.arcgis.com/R6s0QqCMQdwKY6yp/arcgis/rest/services/Excess_Dog_Register_To_Dog/FeatureServer/0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/3b785fc9792c4d3d95131db1d26fde9e_0.geojson"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/3b785fc9792c4d3d95131db1d26fde9e_0.csv"
+				}
+			],
+			"spatial": "174.4155,-38.7553,177.0977,-36.9226",
+			"theme": [
+				"geospatial"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "http://data-waikatolass.opendata.arcgis.com/datasets/6017095b61d14ade8a77d574c80445b4_0",
+			"license": "http://data-waikatolass.opendata.arcgis.com/datasets/6017095b61d14ade8a77d574c80445b4_0/license.json",
+			"landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/6017095b61d14ade8a77d574c80445b4_0",
+			"title": "Owner Classification Event To Dog Complaint",
+			"description": "\n<div>\n<p>Information linking dog classification to specific events (customer complaints).</p>\n<p></p>\n\n</div>\n\n<table border='1'><tr><th><b>Column_Info</b></th></tr><tbody><tr /><tr /></tbody></table>\n\n<div>\n\t<p><b>Relationship</b></p>\n</div>\n\n<div><table>This table reference to table <a href='https://data-waikatolass.opendata.arcgis.com/datasets/hcc::dog-complaint' rel='nofollow ugc'>Dog_Complaint</a></table><table>This table reference to table <a href='https://data-waikatolass.opendata.arcgis.com/datasets/hcc::owner-classification-event' rel='nofollow ugc'>Owner_Classification_Event</a></table></div>\n\n\n\n<div>\n\n\n\t<p><b>Disclaimer</b></p>\n\n\t<p>Hamilton City Council does not make any representation or give any warranty as to the accuracy or exhaustiveness of the data released for public download. Levels, locations and dimensions of works depicted in the data may not be accurate due to circumstances not notified to Council. A physical check should be made on all levels, locations and dimensions before starting design or works.</p>\n\n\t<p>Hamilton City Council shall not be liable for any loss, damage, cost or expense (whether direct or indirect) arising from reliance upon or use of any data provided, or Council's failure to provide this data.</p>\n\n\t<p>While you are free to crop, export and re-purpose the data, we ask that you attribute the Hamilton City Council and clearly state that your work is a derivative and not the authoritative data source. Please include the following statement when distributing any work derived from this data:</p>\n\n\t<p>‘This work is derived entirely or in part from Hamilton City Council data; the provided information may be updated at any time, and may at times be out of date, inaccurate, and/or incomplete.'</p>\n</div>",
+			"keyword": [
+				"Hamilton City Council",
+				"Regulatory",
+				"Owner_Classification_Event_To_Dog_Complaint"
+			],
+			"issued": "2020-04-10T05:28:51.000Z",
+			"modified": "2020-06-01T20:01:24.000Z",
+			"publisher": {
+				"source": "Hamilton City Council"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "HamiltonCityCouncil"
+			},
+			"accessLevel": "public",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/6017095b61d14ade8a77d574c80445b4_0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Esri Rest API",
+					"format": "Esri REST",
+					"mediaType": "application/json",
+					"accessURL": "https://services1.arcgis.com/R6s0QqCMQdwKY6yp/arcgis/rest/services/Owner_Classification_Event_To_Dog_Complaint/FeatureServer/0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/6017095b61d14ade8a77d574c80445b4_0.geojson"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/6017095b61d14ade8a77d574c80445b4_0.csv"
+				}
+			],
+			"spatial": "174.4155,-38.7553,177.0977,-36.9226",
+			"theme": [
+				"geospatial"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_10",
+			"license": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_10/license.json",
+			"landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_10",
+			"title": "Stormwater Abandoned Manhole - Hamilton City Council",
+			"description": "",
+			"keyword": [
+				"Hamilton City Council",
+				"Utilities",
+				"Storm Water",
+				"3 Waters",
+				"Stormwater"
+			],
+			"issued": "2019-10-22T20:54:02.000Z",
+			"modified": "2020-03-18T21:16:43.000Z",
+			"publisher": {
+				"source": "Hamilton City Council"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "HamiltonCityCouncil"
+			},
+			"accessLevel": "public",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_10"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Esri Rest API",
+					"format": "Esri REST",
+					"mediaType": "application/json",
+					"accessURL": "https://services1.arcgis.com/R6s0QqCMQdwKY6yp/arcgis/rest/services/Stormwater%20Dataset%20-%20Hamilton%20City%20Council/FeatureServer/10"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_10.geojson?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_10.csv?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "KML",
+					"format": "KML",
+					"mediaType": "application/vnd.google-earth.kml+xml",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_10.kml?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Shapefile",
+					"format": "ZIP",
+					"mediaType": "application/zip",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_10.zip?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				}
+			],
+			"spatial": "175.2246,-37.8219,175.3266,-37.7388",
+			"theme": [
+				"geospatial"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_9",
+			"license": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_9/license.json",
+			"landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_9",
+			"title": "Stormwater Manhole - Hamilton City Council",
+			"description": "",
+			"keyword": [
+				"Hamilton City Council",
+				"Utilities",
+				"Storm Water",
+				"3 Waters",
+				"Stormwater"
+			],
+			"issued": "2019-10-22T20:54:02.000Z",
+			"modified": "2020-03-18T21:16:43.000Z",
+			"publisher": {
+				"source": "Hamilton City Council"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "HamiltonCityCouncil"
+			},
+			"accessLevel": "public",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_9"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Esri Rest API",
+					"format": "Esri REST",
+					"mediaType": "application/json",
+					"accessURL": "https://services1.arcgis.com/R6s0QqCMQdwKY6yp/arcgis/rest/services/Stormwater%20Dataset%20-%20Hamilton%20City%20Council/FeatureServer/9"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_9.geojson?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_9.csv?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "KML",
+					"format": "KML",
+					"mediaType": "application/vnd.google-earth.kml+xml",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_9.kml?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Shapefile",
+					"format": "ZIP",
+					"mediaType": "application/zip",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_9.zip?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				}
+			],
+			"spatial": "175.2117,-37.8399,175.3302,-37.7069",
+			"theme": [
+				"geospatial"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_7",
+			"license": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_7/license.json",
+			"landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_7",
+			"title": "Stormwater Service Line - Hamilton City Council",
+			"description": "",
+			"keyword": [
+				"Hamilton City Council",
+				"Utilities",
+				"Storm Water",
+				"3 Waters",
+				"Stormwater"
+			],
+			"issued": "2019-10-22T20:54:02.000Z",
+			"modified": "2020-03-18T21:16:43.000Z",
+			"publisher": {
+				"source": "Hamilton City Council"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "HamiltonCityCouncil"
+			},
+			"accessLevel": "public",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_7"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Esri Rest API",
+					"format": "Esri REST",
+					"mediaType": "application/json",
+					"accessURL": "https://services1.arcgis.com/R6s0QqCMQdwKY6yp/arcgis/rest/services/Stormwater%20Dataset%20-%20Hamilton%20City%20Council/FeatureServer/7"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_7.geojson?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_7.csv?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "KML",
+					"format": "KML",
+					"mediaType": "application/vnd.google-earth.kml+xml",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_7.kml?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Shapefile",
+					"format": "ZIP",
+					"mediaType": "application/zip",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_7.zip?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				}
+			],
+			"spatial": "175.2162,-37.8327,175.3305,-37.7089",
+			"theme": [
+				"geospatial"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_13",
+			"license": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_13/license.json",
+			"landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_13",
+			"title": "Stormwater Outlet - Hamilton City Council",
+			"description": "",
+			"keyword": [
+				"Hamilton City Council",
+				"Utilities",
+				"Storm Water",
+				"3 Waters",
+				"Stormwater"
+			],
+			"issued": "2019-10-22T20:54:02.000Z",
+			"modified": "2020-03-18T21:16:43.000Z",
+			"publisher": {
+				"source": "Hamilton City Council"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "HamiltonCityCouncil"
+			},
+			"accessLevel": "public",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_13"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Esri Rest API",
+					"format": "Esri REST",
+					"mediaType": "application/json",
+					"accessURL": "https://services1.arcgis.com/R6s0QqCMQdwKY6yp/arcgis/rest/services/Stormwater%20Dataset%20-%20Hamilton%20City%20Council/FeatureServer/13"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_13.geojson?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_13.csv?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "KML",
+					"format": "KML",
+					"mediaType": "application/vnd.google-earth.kml+xml",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_13.kml?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Shapefile",
+					"format": "ZIP",
+					"mediaType": "application/zip",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_13.zip?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				}
+			],
+			"spatial": "175.2139,-37.8354,175.3301,-37.7068",
+			"theme": [
+				"geospatial"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_14",
+			"license": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_14/license.json",
+			"landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_14",
+			"title": "Stormwater Catchpit Lead - Hamilton City Council",
+			"description": "",
+			"keyword": [
+				"Hamilton City Council",
+				"Utilities",
+				"Storm Water",
+				"3 Waters",
+				"Stormwater"
+			],
+			"issued": "2019-10-22T20:54:02.000Z",
+			"modified": "2020-03-18T21:16:43.000Z",
+			"publisher": {
+				"source": "Hamilton City Council"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "HamiltonCityCouncil"
+			},
+			"accessLevel": "public",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_14"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Esri Rest API",
+					"format": "Esri REST",
+					"mediaType": "application/json",
+					"accessURL": "https://services1.arcgis.com/R6s0QqCMQdwKY6yp/arcgis/rest/services/Stormwater%20Dataset%20-%20Hamilton%20City%20Council/FeatureServer/14"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_14.geojson?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_14.csv?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "KML",
+					"format": "KML",
+					"mediaType": "application/vnd.google-earth.kml+xml",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_14.kml?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Shapefile",
+					"format": "ZIP",
+					"mediaType": "application/zip",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_14.zip?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				}
+			],
+			"spatial": "175.2126,-37.8399,175.3315,-37.707",
+			"theme": [
+				"geospatial"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_12",
+			"license": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_12/license.json",
+			"landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_12",
+			"title": "Stormwater Inlet - Hamilton City Council",
+			"description": "",
+			"keyword": [
+				"Hamilton City Council",
+				"Utilities",
+				"Storm Water",
+				"3 Waters",
+				"Stormwater"
+			],
+			"issued": "2019-10-22T20:54:02.000Z",
+			"modified": "2020-03-18T21:16:43.000Z",
+			"publisher": {
+				"source": "Hamilton City Council"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "HamiltonCityCouncil"
+			},
+			"accessLevel": "public",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_12"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Esri Rest API",
+					"format": "Esri REST",
+					"mediaType": "application/json",
+					"accessURL": "https://services1.arcgis.com/R6s0QqCMQdwKY6yp/arcgis/rest/services/Stormwater%20Dataset%20-%20Hamilton%20City%20Council/FeatureServer/12"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_12.geojson?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_12.csv?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "KML",
+					"format": "KML",
+					"mediaType": "application/vnd.google-earth.kml+xml",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_12.kml?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Shapefile",
+					"format": "ZIP",
+					"mediaType": "application/zip",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_12.zip?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				}
+			],
+			"spatial": "175.2169,-37.8284,175.3298,-37.7118",
+			"theme": [
+				"geospatial"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_0",
+			"license": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_0/license.json",
+			"landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_0",
+			"title": "Stormwater Catchpit - Hamilton City Council",
+			"description": "",
+			"keyword": [
+				"Hamilton City Council",
+				"Utilities",
+				"Storm Water",
+				"3 Waters",
+				"Stormwater"
+			],
+			"issued": "2019-10-22T20:54:02.000Z",
+			"modified": "2020-03-18T21:16:43.000Z",
+			"publisher": {
+				"source": "Hamilton City Council"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Hamilton City Council"
+			},
+			"accessLevel": "public",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Esri Rest API",
+					"format": "Esri REST",
+					"mediaType": "application/json",
+					"accessURL": "https://services1.arcgis.com/R6s0QqCMQdwKY6yp/arcgis/rest/services/Stormwater%20Dataset%20-%20Hamilton%20City%20Council/FeatureServer/0"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_0.geojson?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_0.csv?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "KML",
+					"format": "KML",
+					"mediaType": "application/vnd.google-earth.kml+xml",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_0.kml?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Shapefile",
+					"format": "ZIP",
+					"mediaType": "application/zip",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_0.zip?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				}
+			],
+			"spatial": "175.2125,-37.8399,175.3315,-37.706",
+			"theme": [
+				"geospatial"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_2",
+			"license": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_2/license.json",
+			"landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_2",
+			"title": "Stormwater Channel - Hamilton City Council",
+			"description": "ation-line: none;' target='_blank'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(0, 0, 255); text-decoration-line: underline; font-size: 11.5pt; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>FGDB/File Geodatabase</span></span></a><span style='font-family: Helvetica, Helvetica_MSFontService, sans-serif; margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; font-kerning: none; font-size: 11.5pt; -webkit-tap-highlight-color: transparent; line-height: 19.425px; font-variant-ligatures: none !important;'></span><span style='color: windowtext; font-family: Helvetica, Helvetica_MSFontService, sans-serif; font-size: 11.5pt; margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; line-height: 19.425px;'> </span></li><li><a href='https://hccgovtnz-my.sharepoint.com/:u:/g/personal/gis_hcc_govt_nz/EftUeKeLfntNie6fseudpy0BhrFnG8HGbJTCBoyoKyVj6A?e=HdxErs' style='font-family: Helvetica, Helvetica_MSFontService, sans-serif; font-size: 11.5pt; margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; text-decoration-line: none;' target='_blank'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(0, 0, 255); text-decoration-line: underline; font-size: 11.5pt; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>Shapefile</span></span></a><span style='color: rgb(0, 0, 0); font-family: Helvetica, Helvetica_MSFontService, sans-serif; font-size: 11.5pt; margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'></span><span style='color: windowtext; font-family: Helvetica, Helvetica_MSFontService, sans-serif; font-size: 11.5pt; margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; line-height: 19.425px;'> </span></li><li><a href='https://hccgovtnz-my.sharepoint.com/:u:/g/personal/gis_hcc_govt_nz/EWSLlj9omMZGiByevVjWQH0BX0CHCeNerOA3HZP1hpiheA?e=jW1QjW' style='font-family: Helvetica, Helvetica_MSFontService, sans-serif; font-size: 11.5pt; margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; text-decoration-line: none;' target='_blank'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(0, 0, 255); text-decoration-line: underline; font-size: 11.5pt; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>Excel</span></span></a><span style='color: rgb(0, 0, 0); font-family: Helvetica, Helvetica_MSFontService, sans-serif; font-size: 11.5pt; margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'></span><span style='color: windowtext; font-family: Helvetica, Helvetica_MSFontService, sans-serif; font-size: 11.5pt; margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; line-height: 19.425px;'> </span></li><li><a href='https://hccgovtnz-my.sharepoint.com/:u:/g/personal/gis_hcc_govt_nz/ESibB8VfHF5Iu7pW95z8v6EBdLAr8MLyOGDxtLtIYfLkxg?e=kXrzGF' style='font-family: Helvetica, Helvetica_MSFontService, sans-serif; font-size: 11.5pt; margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; text-decoration-line: none;' target='_blank'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(0, 0, 255); text-decoration-line: underline; font-size: 11.5pt; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>CAD (DWG)</span></span></a><span style='color: rgb(0, 0, 0); font-family: Helvetica, Helvetica_MSFontService, sans-serif; font-size: 11.5pt; margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'></span><span style='color: windowtext; font-family: Helvetica, Helvetica_MSFontService, sans-serif; font-size: 11.5pt; margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; line-height: 19.425px;'> </span></li></ul></div></div><div style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(0, 0, 0); font-family: &quot;Segoe UI&quot;, &quot;Segoe UI Web&quot;, Arial, Verdana, sans-serif; font-size: 12px;'><div style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;'><p style='margin-top: 0px; margin-bottom: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; color: windowtext;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Helvetica, Helvetica_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>Please note that the links above may change at any time. For best practice, please refer to this page for the correct links.  </span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11.5pt; line-height: 19.425px; font-family: Helvetica, Helvetica_MSFontService, sans-serif;'> </span></p></div><div style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;'><p style='margin-top: 0px; margin-bottom: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; color: windowtext;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Helvetica, Helvetica_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>If any of the links are above are not functioning, please let us know at </span></span><a href='mailto:gis@hcc.govt.nz' style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; text-decoration-line: none;' target='_blank'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(0, 0, 255); text-decoration-line: underline; font-size: 11.5pt; font-family: Helvetica, Helvetica_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>gis@hcc.govt.nz</span></span></a><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Helvetica, Helvetica_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>.</span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11.5pt; line-height: 19.425px; font-family: Helvetica, Helvetica_MSFontService, sans-serif;'> </span></p></div><div style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;'><p style='margin-top: 0px; margin-bottom: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; color: windowtext;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; outline: transparent solid 1px; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>This Stormwater dataset contains the following layers:</span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11.5pt; line-height: 19.425px; font-family: Arial, Arial_MSFontService, sans-serif;'> </span></p><p style='margin-top: 0px; margin-bottom: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; color: windowtext;'><ul><li><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>Stormwater Abandoned Main (A stormwater main that is still in the ground, but is now disused and no longer forms part of the active network)</span></span><span style='color: windowtext; margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11.5pt; line-height: 19.425px; font-family: Arial, Arial_MSFontService, sans-serif;'> </span></li><li><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>Stormwater Abandoned Manhole (An opening in a pipe </span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>for the purpose of</span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'> allowing operators or equipment access to the inside of the pipe that is still in the ground but is now disused and no longer forms part of the active network)</span></span><span style='color: windowtext; margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11.5pt; line-height: 19.425px; font-family: Arial, Arial_MSFontService, sans-serif;'> </span></li><li><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>Stormwater </span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-repeat: repeat-x; background-position: left bottom; background-image: url(&quot;data:image/gif;base64,R0lGODlhBQAEAJECAP////8AAAAAAAAAACH5BAEAAAIALAAAAAAFAAQAAAIIlGAXCCHrTCgAOw==&quot;); border-bottom: 1px solid transparent; background-color: inherit;'>Asbuilts</span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'> (Plans showing the location and alignment of basic stormwater infrastructure as it was </span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-repeat: repeat-x; background-position: left bottom; background-image: url(&quot;data:image/gif;base64,R0lGODlhBQAEAPABAJttFAAAACH5BAUAAAEALAAAAAAFAAQAAAIFjA2JelcAOw==&quot;); border-bottom: 1px solid transparent; background-color: inherit;'>actually constructed</span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'> on site, as provided by the contractor or their representatives.  Data has not yet been fully incorporated into the Council GIS or asset management system)</span></span><span style='color: windowtext; margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11.5pt; line-height: 19.425px; font-family: Arial, Arial_MSFontService, sans-serif;'> </span></li><li><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>Stormwater Attenuation and Treatment Device (A device used to provide temporary storage and the controlled release of storm water volumes. Located upstream of the receiving environment, devices such as wetlands and ponds may also incorporate a storm water treatment function)</span></span><span style='color: windowtext; margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11.5pt; line-height: 19.425px; font-family: Arial, Arial_MSFontService, sans-serif;'> </span></li><li><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>Stormwater </span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-repeat: repeat-x; background-position: left bottom; background-image: url(&quot;data:image/gif;base64,R0lGODlhBQAEAJECAP////8AAAAAAAAAACH5BAEAAAIALAAAAAAFAAQAAAIIlGAXCCHrTCgAOw==&quot;); border-bottom: 1px solid transparent; background-color: inherit;'>Catchpit</span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'> (A device that collects stormwater run-off from the road and transports it along the network)</span></span><span style='color: windowtext; margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11.5pt; line-height: 19.425px; font-family: Arial, Arial_MSFontService, sans-serif;'> </span></li><li><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>Stormwater </span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-repeat: repeat-x; background-position: left bottom; background-image: url(&quot;data:image/gif;base64,R0lGODlhBQAEAJECAP////8AAAAAAAAAACH5BAEAAAIALAAAAAAFAAQAAAIIlGAXCCHrTCgAOw==&quot;); border-bottom: 1px solid transparent; background-color: inherit;'>Catchpit</span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'> Lead (A pipe that transports stormwater run-off from </span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-repeat: repeat-x; background-position: left bottom; background-image: url(&quot;data:image/gif;base64,R0lGODlhBQAEAJECAP////8AAAAAAAAAACH5BAEAAAIALAAAAAAFAAQAAAIIlGAXCCHrTCgAOw==&quot;); border-bottom: 1px solid transparent; background-color: inherit;'>catchpits</span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'> and connects into the stormwater network)</span></span><span style='color: windowtext; margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11.5pt; line-height: 19.425px; font-family: Arial, Arial_MSFontService, sans-serif;'> </span></li><li><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>Stormwater Channel (An open drain, natural watercourse (such as a stream) or lined channel that collects stormwater run-off from the environment or network)</span></span><span style='color: windowtext; margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11.5pt; line-height: 19.425px; font-family: Arial, Arial_MSFontService, sans-serif;'> </span></li><li><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>Stormwater Inlet (A structure where stormwater enters either a pipe, pond, culvert or channel)</span></span><span style='color: windowtext; margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11.5pt; line-height: 19.425px; font-family: Arial, Arial_MSFontService, sans-serif;'> </span></li><li><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>Stormwater Main (A pipe that transports stormwater to a natural watercourse or body of water)</span></span><span style='color: windowtext; margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11.5pt; line-height: 19.425px; font-family: Arial, Arial_MSFontService, sans-serif;'> </span></li><li><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>Stormwater Manhole (An opening in a pipe </span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>for the purpose of</span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'> allowing operators or equipment access to the inside of the pipe)</span></span><span style='color: windowtext; margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11.5pt; line-height: 19.425px; font-family: Arial, Arial_MSFontService, sans-serif;'> </span></li><li><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>Stormwater Node (A junction point in a pipe. It can be a structure)</span></span><span style='color: windowtext; margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11.5pt; line-height: 19.425px; font-family: Arial, Arial_MSFontService, sans-serif;'> </span></li><li><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>Stormwater Outlet (A structure at the end of a pipe or channel that controls the flow of stormwater to a natural watercourse or body of water)</span></span></li><li><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>Stormwater Service Line (A gravity flow pipeline connecting a building’s direct runoff collection system to a stormwater pipe or a kerb (in the case of kerb and channel connections))</span></span><span style='color: windowtext; margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11.5pt; line-height: 19.425px; font-family: Arial, Arial_MSFontService, sans-serif;'> </span></li><li><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>Stormwater Soakage Trench (A subsurface structure into which runoff is conveyed for disposal by infiltration)</span></span><span style='color: windowtext; margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11.5pt; line-height: 19.425px; font-family: Arial, Arial_MSFontService, sans-serif;'> </span></li><li><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>Stormwater Subsoil Drain (A perforated drain used to collect ground water and transport it to a land drainage or stormwater drainage system)</span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Helvetica, Helvetica_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'> </span></span><span style='color: windowtext; margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11.5pt; line-height: 19.425px; font-family: Helvetica, Helvetica_MSFontService, sans-serif;'> </span></li></ul></p><p style='margin-top: 0px; margin-bottom: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; color: windowtext;'><br /></p></div></div><div style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(0, 0, 0); font-family: &quot;Segoe UI&quot;, &quot;Segoe UI Web&quot;, Arial, Verdana, sans-serif; font-size: 12px;'><div style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;'><p style='margin-top: 0px; margin-bottom: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; color: windowtext;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Helvetica, Helvetica_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>Hamilton City Council 3 Waters data is derived from the Council’s GIS (ArcGIS) dataset. The GIS dataset is synchronised with asset data contained in the Council’s Asset Management (IPS) database. A subset of the GIS dataset has been made availab</span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>le for download.</span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11.5pt; line-height: 19.425px; font-family: Arial, Arial_MSFontService, sans-serif;'> </span></p></div><div style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;'><p style='margin-top: 0px; margin-bottom: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; color: windowtext;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Helvetica, Helvetica_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>This GIS dataset is currently updated weekly which in turn dynamically updates to the WLASS open data site. Any questions pertaining to this data should be directed to the City Waters Asset Information Team at </span></span><a href='mailto:CityWatersAssetInfo@hcc.govt.nz' style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; text-decoration-line: none;' target='_blank'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: rgb(0, 121, 193); text-decoration-line: underline; font-size: 11.5pt; font-kerning: none; line-height: 19.425px; font-variant-ligatures: none !important;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>CityWatersAssetInfo@hcc.govt.nz</span></span></a><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Helvetica, Helvetica_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px;'></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11.5pt; line-height: 19.425px; font-family: Helvetica, Helvetica_MSFontService, sans-serif;'> </span></p></div></div><div style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; color: rgb(0, 0, 0); font-family: &quot;Segoe UI&quot;, &quot;Segoe UI Web&quot;, Arial, Verdana, sans-serif; font-size: 12px;'><p style='margin-top: 0px; margin-bottom: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; color: windowtext;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Helvetica, Helvetica_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>Hamilton City Council does not make any representation or give any warranty as to the accuracy or exhaustiveness of the data released for public download. Levels, locations and dimensions of works depicted </span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>in the data may not be accurate due to circumstances not notified to Council. A physical check should be made on all levels, locations and dimensions before starting design or works.</span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11.5pt; line-height: 19.425px; font-family: Arial, Arial_MSFontService, sans-serif;'> </span></p></div><div style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; color: rgb(0, 0, 0); font-family: &quot;Segoe UI&quot;, &quot;Segoe UI Web&quot;, Arial, Verdana, sans-serif; font-size: 12px;'><p style='margin-top: 0px; margin-bottom: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; color: windowtext;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Helvetica, Helvetica_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>Hamilton City Council shall not be liable for any loss, damage, cost or e</span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>xpense (whether direct or indirect) arising from reliance upon or use of any data provided, or Council's failure to provide this data.</span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11.5pt; line-height: 19.425px; font-family: Arial, Arial_MSFontService, sans-serif;'> </span></p></div><div style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; color: rgb(0, 0, 0); font-family: &quot;Segoe UI&quot;, &quot;Segoe UI Web&quot;, Arial, Verdana, sans-serif; font-size: 12px;'><p style='margin-top: 0px; margin-bottom: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; color: windowtext;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Helvetica, Helvetica_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>While you are free to crop, export and re-purpose the data, we ask that you attribute the Hamilton City Council and clear</span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>ly state that your work is a derivative and not the authoritative data source. Please include the following statement when distributing any work derived from this data:</span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11.5pt; line-height: 19.425px; font-family: Arial, Arial_MSFontService, sans-serif;'> </span></p></div><div style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; color: rgb(0, 0, 0); font-family: &quot;Segoe UI&quot;, &quot;Segoe UI Web&quot;, Arial, Verdana, sans-serif; font-size: 12px;'><p style='margin-top: 0px; margin-bottom: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; color: windowtext;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Helvetica, Helvetica_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'>‘This work is derived entirely or in part from Hamilton City Council data; the provided</span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: rgb(76, 76, 76); font-size: 11.5pt; font-family: Arial, Arial_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'> information may be updated at any time, and may at times be out of date, inaccurate, and/or incomplete.</span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11.5pt; line-height: 19.425px; font-family: Arial, Arial_MSFontService, sans-serif;'> </span></p></div><div style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; color: rgb(0, 0, 0); font-family: &quot;Segoe UI&quot;, &quot;Segoe UI Web&quot;, Arial, Verdana, sans-serif; font-size: 12px;'><p style='margin-top: 0px; margin-bottom: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; color: windowtext;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: rgb(76, 76, 76); font-size: 11pt; font-family: Helvetica, Helvetica_MSFontService, sans-serif; font-kerning: none; line-height: 19.425px;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'> </span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 19.425px; font-family: Helvetica, Helvetica_MSFontService, sans-serif;'> </span></p></div><div style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; color: rgb(0, 0, 0); font-family: &quot;Segoe UI&quot;, &quot;Segoe UI Web&quot;, Arial, Verdana, sans-serif; font-size: 12px;'><p style='margin-top: 0px; margin-bottom: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; background-color: transparent; color: windowtext;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; font-size: 12pt; font-family: Calibri, Calibri_MSFontService, sans-serif; font-kerning: none; line-height: 20.5042px;'><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;'></span></span><span style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 12pt; line-height: 20.5042px; font-family: Calibri, Calibri_MSFontService, sans-serif;'> </span></p></div>",
+			"keyword": [
+				"Hamilton City Council",
+				"Utilities",
+				"Storm Water",
+				"3 Waters",
+				"Stormwater"
+			],
+			"issued": "2019-10-22T20:54:02.000Z",
+			"modified": "2020-03-18T21:16:43.000Z",
+			"publisher": {
+				"source": "Hamilton City Council"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "HamiltonCityCouncil"
+			},
+			"accessLevel": "public",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_2"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Esri Rest API",
+					"format": "Esri REST",
+					"mediaType": "application/json",
+					"accessURL": "https://services1.arcgis.com/R6s0QqCMQdwKY6yp/arcgis/rest/services/Stormwater%20Dataset%20-%20Hamilton%20City%20Council/FeatureServer/2"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_2.geojson?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_2.csv?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "KML",
+					"format": "KML",
+					"mediaType": "application/vnd.google-earth.kml+xml",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_2.kml?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Shapefile",
+					"format": "ZIP",
+					"mediaType": "application/zip",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_2.zip?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				}
+			],
+			"spatial": "175.2039,-37.8325,175.3346,-37.7125",
+			"theme": [
+				"geospatial"
+			]
+		},
+		{
+			"@type": "dcat:Dataset",
+			"identifier": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_11",
+			"license": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_11/license.json",
+			"landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_11",
+			"title": "Stormwater Attenuation and Treatment Device - Hamilton City Council",
+			"description": "",
+			"keyword": [
+				"Hamilton City Council",
+				"Utilities",
+				"Storm Water",
+				"3 Waters",
+				"Stormwater"
+			],
+			"issued": "2019-10-22T20:54:02.000Z",
+			"modified": "2020-03-18T21:16:43.000Z",
+			"publisher": {
+				"source": "Hamilton City Council"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "Hamilton City Council"
+			},
+			"accessLevel": "public",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_11"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Esri Rest API",
+					"format": "Esri REST",
+					"mediaType": "application/json",
+					"accessURL": "https://services1.arcgis.com/R6s0QqCMQdwKY6yp/arcgis/rest/services/Stormwater%20Dataset%20-%20Hamilton%20City%20Council/FeatureServer/11"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "GeoJSON",
+					"format": "GeoJSON",
+					"mediaType": "application/vnd.geo+json",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_11.geojson?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "CSV",
+					"format": "CSV",
+					"mediaType": "text/csv",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_11.csv?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "KML",
+					"format": "KML",
+					"mediaType": "application/vnd.google-earth.kml+xml",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_11.kml?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Shapefile",
+					"format": "ZIP",
+					"mediaType": "application/zip",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/928e51975bc04315b7f14d0b2c1cf28c_11.zip?outSR={\"latestWkid\":2193,\"wkid\":2193}"
+				}
+			],
+			"spatial": "175.216,-37.8321,175.3017,-37.7119",
+			"theme": [
+				"geospatial"
+			]
+		},
+
+			"@type": "dcat:Dataset",
+			"identifier": "http://data-waikatolass.opendata.arcgis.com/datasets/3eb4f9e6e1d346b89e59cec6eae61de6",
+			"license": "http://data-waikatolass.opendata.arcgis.com/datasets/3eb4f9e6e1d346b89e59cec6eae61de6/license.json",
+			"landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/3eb4f9e6e1d346b89e59cec6eae61de6",
+			"title": "DP Notable Tree WFS",
+			"description": "{{default.description}}",
+			"keyword": [
+				"Waikato District Council"
+			],
+			"issued": "2018-12-11T02:33:58.000Z",
+			"modified": "2019-03-13T01:36:04.000Z",
+			"publisher": {
+				"source": "WaikatoDistrictCouncil"
+			},
+			"contactPoint": {
+				"@type": "vcard:Contact",
+				"fn": "WaikatoDistrictCouncil"
+			},
+			"accessLevel": "public",
+			"distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"title": "ArcGIS Hub Dataset",
+					"format": "Web Page",
+					"mediaType": "text/html",
+					"accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/3eb4f9e6e1d346b89e59cec6eae61de6"
+				},
+				{
+					"@type": "dcat:Distribution",
+					"title": "Esri Rest API",
+					"format": "Esri REST",
+					"mediaType": "application/json",
+					"accessURL": "https://dservices9.arcgis.com/hFOIM3RwvlDTA5Jf/arcgis/services/DP_Notable_Tree_WFS/WFSServer"
+				}
+			],
+			"spatial": "174.6872,-37.8857,175.5079,-37.2241",
+			"theme": [
+				"geospatial"
+			]
+		}
+	]
+}
