@@ -24,7 +24,7 @@
         },
         "landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/ea97c3f9f55b4e128fcb9d77eca63095_1",
         "theme": "Local Authority",
-        "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[165.2693, -52.483], [-177.6453, -52.483], [-177.6453, -29.0133], [165.2693, -29.0133], [165.2693, -52.483]]]}",
+        "spatial": "165.2693, -52.483,-177.6453, -52.483,-177.6453, -29.0133,165.2693, -29.0133, 165.2693, -52.483",
         "distribution": [
             {
                 "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/ea97c3f9f55b4e128fcb9d77eca63095_1",
