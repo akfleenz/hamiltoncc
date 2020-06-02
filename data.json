@@ -1,95 +1,277 @@
 {
-      "@context": "https://www.data.govt.nz/catalog.jsonld",
-      "@id": "https://www.hamilton.govt.nz/data.json",
-      "@type": "dcat:Catalog",
-      "conformsTo": "https://www.data.govt.nz/toolkit/schema",
-      "dataset":[
+  "@context": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld",
+  "@type": "dcat:Catalog",
+  "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+  "describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+  "dataset": [
     {
-        "title": "Wastewater Abandoned Main - Hamilton City Council",
-        "description": "This layer is part of Hamilton City Council's Wastewater Dataset",
-        "license": "https://creativecommons.org/licenses/by/4.0",
-        "keyword": [
-            "hamilton city council",
-            "utilities",
-            "wastewater"
-        ],
-        "issued": "2019-10-21",
-        "modified": "2019-10-21",
-        "publisher": {
-            "name": "Hamilton City Council"
+      "@type": "dcat:Dataset",
+      "identifier": "http://data-waikatolass.opendata.arcgis.com/datasets/0110dd366cbb4e88838d936b16d8c1f7_0",
+      "license": "http://data-waikatolass.opendata.arcgis.com/datasets/0110dd366cbb4e88838d936b16d8c1f7_0/license.json",
+      "landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/0110dd366cbb4e88838d936b16d8c1f7_0",
+      "title": "Owner Classification Event To Dog",
+      "description": "Information about classification events linked to specific dogs.",
+      "keyword": [
+        "Hamilton City Council",
+        "Regulatory",
+        "Owner_Classification_Event_To_Dog"
+      ],
+      "issued": "2020-04-10T11:07:45.000Z",
+      "modified": "2020-06-01T20:01:56.000Z",
+      "publisher": {
+        "source": "Hamilton City Council"
+      },
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "Hamilton City Council"
+      },
+      "accessLevel": "public",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "title": "ArcGIS Hub Dataset",
+          "format": "Web Page",
+          "mediaType": "text/html",
+          "accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/0110dd366cbb4e88838d936b16d8c1f7_0"
         },
-        "contactPoint": {
-            "fn": "HamiltonCityCouncil",
-            "hasEmail": "opendata@hcc.govt.nz"
+        {
+          "@type": "dcat:Distribution",
+          "title": "Esri Rest API",
+          "format": "Esri REST",
+          "mediaType": "application/json",
+          "accessURL": "https://services1.arcgis.com/R6s0QqCMQdwKY6yp/arcgis/rest/services/Owner_Classification_Event_To_Dog/FeatureServer/0"
         },
-        "landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/ea97c3f9f55b4e128fcb9d77eca63095_1",
-        "theme": "Local Authority",
-        "spatial": "165.2693, -52.483,-177.6453, -52.483,-177.6453, -29.0133,165.2693, -29.0133, 165.2693, -52.483",
-        "distribution": [
-            {
-                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/ea97c3f9f55b4e128fcb9d77eca63095_1",
-                "format": "HTML",
-                "title": "ArcGIS Hub Dataset"
-            },
-            {
-                "downloadURL": "https://services1.arcgis.com/R6s0QqCMQdwKY6yp/arcgis/rest/services/Wastewater%20Dataset%20-%20Hamilton%20City%20Council/FeatureServer/1",
-                "format": "Esri REST",
-                "title": "Esri Rest API"
-            },
-            {
-                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/ea97c3f9f55b4e128fcb9d77eca63095_1.geojson",
-                "format": "GeoJSON",
-                "title": "GeoJSON"
-            },
-            {
-                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/ea97c3f9f55b4e128fcb9d77eca63095_1.csv",
-                "format": "CSV",
-                "title": "CSV"
-            },
-            {
-                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/ea97c3f9f55b4e128fcb9d77eca63095_1.kml",
-                "format": "KML",
-                "title": "KML"
-            },
-            {
-                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/ea97c3f9f55b4e128fcb9d77eca63095_1.zip",
-                "format": "ZIP",
-                "title": "Shapefile"
-            }
-        ]
+        {
+          "@type": "dcat:Distribution",
+          "title": "GeoJSON",
+          "format": "GeoJSON",
+          "mediaType": "application/vnd.geo+json",
+          "accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/0110dd366cbb4e88838d936b16d8c1f7_0.geojson"
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "CSV",
+          "format": "CSV",
+          "mediaType": "text/csv",
+          "accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/0110dd366cbb4e88838d936b16d8c1f7_0.csv"
+        }
+      ],
+      "spatial": "174.4155,-38.7553,177.0977,-36.9226",
+      "theme": [
+        "Local Authority"
+      ]
     },
     {
-        "title": "Freshwater Dataset - Hamilton City Council",
-        "description": "This layer is part of Hamilton City Council's Freshwater Dataset",
-        "license": "https://creativecommons.org/licenses/by/4.0",
+      "@type": "dcat:Dataset",
+      "identifier": "http://data-waikatolass.opendata.arcgis.com/datasets/f9a5ed0ccb8949728aae974e2eebb8f4_0",
+      "license": "http://data-waikatolass.opendata.arcgis.com/datasets/f9a5ed0ccb8949728aae974e2eebb8f4_0/license.json",
+      "landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/f9a5ed0ccb8949728aae974e2eebb8f4_0",
+      "title": "Owner Classification Event",
+      "description": "Information about the type of events leading to the classification of dogs as menacing or dangerous.",
+      "keyword": [
+        "Hamilton City Council",
+        "Regulatory",
+        "Owner_Classification_Event"
+      ],
+      "issued": "2020-04-10T06:30:59.000Z",
+      "modified": "2020-06-01T20:01:48.000Z",
+      "publisher": {
+        "source": "Hamilton City Council"
+      },
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "Hamilton City Council"
+      },
+      "accessLevel": "public",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "title": "ArcGIS Hub Dataset",
+          "format": "Web Page",
+          "mediaType": "text/html",
+          "accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/f9a5ed0ccb8949728aae974e2eebb8f4_0"
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "Esri Rest API",
+          "format": "Esri REST",
+          "mediaType": "application/json",
+          "accessURL": "https://services1.arcgis.com/R6s0QqCMQdwKY6yp/arcgis/rest/services/Owner_Classification_Event/FeatureServer/0"
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "GeoJSON",
+          "format": "GeoJSON",
+          "mediaType": "application/vnd.geo+json",
+          "accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/f9a5ed0ccb8949728aae974e2eebb8f4_0.geojson"
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "CSV",
+          "format": "CSV",
+          "mediaType": "text/csv",
+          "accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/f9a5ed0ccb8949728aae974e2eebb8f4_0.csv"
+        }
+      ],
+      "spatial": "174.4155,-38.7553,177.0977,-36.9226",
+      "theme": [
+        "geospatial"
+      ],
+      "": {
+        "@type": "dcat:Dataset",
+        "identifier": "http://data-waikatolass.opendata.arcgis.com/datasets/11bf0327485d48708890ee1eec474b4f_0",
+        "license": "http://data-waikatolass.opendata.arcgis.com/datasets/11bf0327485d48708890ee1eec474b4f_0/license.json",
+        "landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/11bf0327485d48708890ee1eec474b4f_0",
+        "title": "Dog Complaint To Dog",
+        "description": "Information linking dog complaints to dogs.",
         "keyword": [
-            "freshwater",
-            "hamilton city council",
-            "utilities",
-            "water"
+          "Hamilton City Council",
+          "Regulatory",
+          "Dog_Complaint_To_Dog"
         ],
-        "issued": "2019-10-21",
-        "modified": "2019-10-21",
+        "issued": "2020-04-10T06:14:03.000Z",
+        "modified": "2020-06-01T20:01:46.000Z",
         "publisher": {
-            "name": "Hamilton City Council"
+          "source": "Hamilton City Council"
         },
         "contactPoint": {
-            "fn": "HamiltonCityCouncil",
-            "hasEmail": "opendata@hcc.govt.nz"
+          "@type": "vcard:Contact",
+          "fn": "HamiltonCityCouncil"
         },
-        "landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/22f0ff3ef1e74a2fb843e632b686211d",
-        "theme": "Local Authority",
+        "accessLevel": "public",
         "distribution": [
-            {
-                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/22f0ff3ef1e74a2fb843e632b686211d",
-                "format": "HTML",
-                "title": "ArcGIS Hub Dataset"
-            },
-            {
-                "downloadURL": "https://services1.arcgis.com/R6s0QqCMQdwKY6yp/arcgis/rest/services/Freshwater%20Dataset%20-%20Hamilton%20City%20Council/FeatureServer",
-                "format": "Esri REST",
-                "title": "Esri Rest API"
-            }
+          {
+            "@type": "dcat:Distribution",
+            "title": "ArcGIS Hub Dataset",
+            "format": "Web Page",
+            "mediaType": "text/html",
+            "accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/11bf0327485d48708890ee1eec474b4f_0"
+          },
+          {
+            "@type": "dcat:Distribution",
+            "title": "Esri Rest API",
+            "format": "Esri REST",
+            "mediaType": "application/json",
+            "accessURL": "https://services1.arcgis.com/R6s0QqCMQdwKY6yp/arcgis/rest/services/Dog_Complaint_To_Dog/FeatureServer/0"
+          },
+          {
+            "@type": "dcat:Distribution",
+            "title": "GeoJSON",
+            "format": "GeoJSON",
+            "mediaType": "application/vnd.geo+json",
+            "accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/11bf0327485d48708890ee1eec474b4f_0.geojson"
+          },
+          {
+            "@type": "dcat:Distribution",
+            "title": "CSV",
+            "format": "CSV",
+            "mediaType": "text/csv",
+            "accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/11bf0327485d48708890ee1eec474b4f_0.csv"
+          }
+        ],
+        "spatial": "174.4155,-38.7553,177.0977,-36.9226",
+        "theme": [
+          "geospatial"
         ]
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "identifier": "http://data-waikatolass.opendata.arcgis.com/datasets/ccec4307e750496e91588b26c3aec3fc_0",
+      "license": "http://data-waikatolass.opendata.arcgis.com/datasets/ccec4307e750496e91588b26c3aec3fc_0/license.json",
+      "landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/ccec4307e750496e91588b26c3aec3fc_0",
+      "title": "Excess Dog Register",
+      "description": "Information about multi-dog permits.",
+      "keyword": [
+        "Hamilton City Council",
+        "Regulatory",
+        "Excess_Dog_Register"
+      ],
+      "issued": "2020-04-10T06:13:38.000Z",
+      "modified": "2020-06-01T20:01:45.000Z",
+      "publisher": {
+        "source": "Hamilton City Council"
+      },
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "HamiltonCityCouncil"
+      },
+      "accessLevel": "public",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "title": "ArcGIS Hub Dataset",
+          "format": "Web Page",
+          "mediaType": "text/html",
+          "accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/ccec4307e750496e91588b26c3aec3fc_0"
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "Esri Rest API",
+          "format": "Esri REST",
+          "mediaType": "application/json",
+          "accessURL": "https://services1.arcgis.com/R6s0QqCMQdwKY6yp/arcgis/rest/services/Excess_Dog_Register/FeatureServer/0"
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "GeoJSON",
+          "format": "GeoJSON",
+          "mediaType": "application/vnd.geo+json",
+          "accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/ccec4307e750496e91588b26c3aec3fc_0.geojson"
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "CSV",
+          "format": "CSV",
+          "mediaType": "text/csv",
+          "accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/ccec4307e750496e91588b26c3aec3fc_0.csv"
+        }
+      ],
+      "spatial": "174.4155,-38.7553,177.0977,-36.9226",
+      "theme": [
+        "geospatial"
+      ]
+    },
+        {
+      "@type": "dcat:Dataset",
+      "identifier": "http://data-waikatolass.opendata.arcgis.com/datasets/3eb4f9e6e1d346b89e59cec6eae61de6",
+      "license": "http://data-waikatolass.opendata.arcgis.com/datasets/3eb4f9e6e1d346b89e59cec6eae61de6/license.json",
+      "landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/3eb4f9e6e1d346b89e59cec6eae61de6",
+      "title": "DP Notable Tree WFS",
+      "description": "{{default.description}}",
+      "keyword": [
+        "Waikato District Council"
+      ],
+      "issued": "2018-12-11T02:33:58.000Z",
+      "modified": "2019-03-13T01:36:04.000Z",
+      "publisher": {
+        "source": "WaikatoDistrictCouncil"
+      },
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "WaikatoDistrictCouncil"
+      },
+      "accessLevel": "public",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "title": "ArcGIS Hub Dataset",
+          "format": "Web Page",
+          "mediaType": "text/html",
+          "accessURL": "http://data-waikatolass.opendata.arcgis.com/datasets/3eb4f9e6e1d346b89e59cec6eae61de6"
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "Esri Rest API",
+          "format": "Esri REST",
+          "mediaType": "application/json",
+          "accessURL": "https://dservices9.arcgis.com/hFOIM3RwvlDTA5Jf/arcgis/services/DP_Notable_Tree_WFS/WFSServer"
+        }
+      ],
+      "spatial": "174.6872,-37.8857,175.5079,-37.2241",
+      "theme": [
+        "geospatial"
+      ]
     }
-]}
+  ]
+}
