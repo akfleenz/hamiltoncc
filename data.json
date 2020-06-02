@@ -1,358 +1,94 @@
 {
       "@context": "https://www.data.govt.nz/catalog.jsonld",
-      "@id": "https://www.doc.govt.nz/data.json",
+      "@id": "https://www.hamilton.govt.nz/data.json",
       "@type": "dcat:Catalog",
       "conformsTo": "https://www.data.govt.nz/toolkit/schema",
       "dataset":[
     {
-        "title": "DOC Public Conservation Land",
-        "description": "default description",
-        "identifier": "http://doc-deptconservation.opendata.arcgis.com/datasets/72354ba9bf7a4706af3fdfe60f86eea1_0",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "title": "Wastewater Abandoned Main - Hamilton City Council",
+        "description": "This layer is part of Hamilton City Council's Wastewater Dataset",
+        "license": "https://creativecommons.org/licenses/by/4.0",
         "keyword": [
-            " chatham islands",
-            "doc",
-            "doc areas",
-            "public conservation areas",
-            "subantarctic islands",
-            "opendata"
+            "hamilton city council",
+            "utilities",
+            "wastewater"
         ],
-        "issued": "2018-03-05T01:22:01.000Z",
-        "modified": "2020-03-06T06:06:06.000Z",
+        "issued": "2019-10-21",
+        "modified": "2019-10-21",
         "publisher": {
-            "name": "Department of Conservation"
+            "name": "Hamilton City Council"
         },
         "contactPoint": {
-            "fn": "DOC_admin",
-            "hasEmail": "geodata@doc.govt.nz"
+            "fn": "HamiltonCityCouncil",
+            "hasEmail": "opendata@hcc.govt.nz"
         },
-        "landingPage": "http://doc-deptconservation.opendata.arcgis.com/datasets/72354ba9bf7a4706af3fdfe60f86eea1_0",
-        "theme": "[\"geospatial\"]",
+        "landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/ea97c3f9f55b4e128fcb9d77eca63095_1",
+        "theme": "Local Authority",
         "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[165.2693, -52.483], [-177.6453, -52.483], [-177.6453, -29.0133], [165.2693, -29.0133], [165.2693, -52.483]]]}",
         "distribution": [
             {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/72354ba9bf7a4706af3fdfe60f86eea1_0",
+                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/ea97c3f9f55b4e128fcb9d77eca63095_1",
                 "format": "HTML",
                 "title": "ArcGIS Hub Dataset"
             },
             {
-                "downloadURL": "https://services1.arcgis.com/3JjYDyG3oajxU6HO/arcgis/rest/services/DOC_Public_Conservation_Land/FeatureServer/0",
+                "downloadURL": "https://services1.arcgis.com/R6s0QqCMQdwKY6yp/arcgis/rest/services/Wastewater%20Dataset%20-%20Hamilton%20City%20Council/FeatureServer/1",
                 "format": "Esri REST",
                 "title": "Esri Rest API"
             },
             {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/72354ba9bf7a4706af3fdfe60f86eea1_0.geojson?outSR={\"latestWkid\":2193,\"wkid\":2193}",
+                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/ea97c3f9f55b4e128fcb9d77eca63095_1.geojson",
                 "format": "GeoJSON",
                 "title": "GeoJSON"
             },
             {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/72354ba9bf7a4706af3fdfe60f86eea1_0.csv?outSR={\"latestWkid\":2193,\"wkid\":2193}",
+                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/ea97c3f9f55b4e128fcb9d77eca63095_1.csv",
                 "format": "CSV",
                 "title": "CSV"
             },
             {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/72354ba9bf7a4706af3fdfe60f86eea1_0.kml?outSR={\"latestWkid\":2193,\"wkid\":2193}",
+                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/ea97c3f9f55b4e128fcb9d77eca63095_1.kml",
                 "format": "KML",
                 "title": "KML"
             },
             {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/72354ba9bf7a4706af3fdfe60f86eea1_0.zip?outSR={\"latestWkid\":2193,\"wkid\":2193}",
+                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/ea97c3f9f55b4e128fcb9d77eca63095_1.zip",
                 "format": "ZIP",
                 "title": "Shapefile"
             }
         ]
     },
     {
-        "title": "DOC Recreational Hunting Permit Areas",
-        "description": "default description",
-        "identifier": "http://doc-deptconservation.opendata.arcgis.com/datasets/f8fb2864d9a745b59152afb0ea4ca2ae_0",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "title": "Freshwater Dataset - Hamilton City Council",
+        "description": "This layer is part of Hamilton City Council's Freshwater Dataset",
+        "license": "https://creativecommons.org/licenses/by/4.0",
         "keyword": [
-            " boundaries",
-            "doc",
-            "doc areas",
-            "hunting",
-            "hunting permit",
-            "recreational hunting",
-            "opendata"
+            "freshwater",
+            "hamilton city council",
+            "utilities",
+            "water"
         ],
-        "issued": "2017-11-07T01:53:44.000Z",
-        "modified": "2020-03-06T06:07:01.000Z",
+        "issued": "2019-10-21",
+        "modified": "2019-10-21",
         "publisher": {
-            "name": "Department of Conservation"
+            "name": "Hamilton City Council"
         },
         "contactPoint": {
-            "fn": "DOC_admin",
-            "hasEmail": "geodata@doc.govt.nz"
+            "fn": "HamiltonCityCouncil",
+            "hasEmail": "opendata@hcc.govt.nz"
         },
-        "landingPage": "http://doc-deptconservation.opendata.arcgis.com/datasets/f8fb2864d9a745b59152afb0ea4ca2ae_0",
-        "theme": "[\"geospatial\"]",
-        "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[166.2622, -47.2219], [178.073, -47.2219], [178.073, -34.32], [166.2622, -34.32], [166.2622, -47.2219]]]}",
+        "landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/22f0ff3ef1e74a2fb843e632b686211d",
+        "theme": "Local Authority",
         "distribution": [
             {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/f8fb2864d9a745b59152afb0ea4ca2ae_0",
+                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/22f0ff3ef1e74a2fb843e632b686211d",
                 "format": "HTML",
                 "title": "ArcGIS Hub Dataset"
             },
             {
-                "downloadURL": "https://services1.arcgis.com/3JjYDyG3oajxU6HO/arcgis/rest/services/DOC_Recreational_Hunting_Permit_Areas/FeatureServer/0",
+                "downloadURL": "https://services1.arcgis.com/R6s0QqCMQdwKY6yp/arcgis/rest/services/Freshwater%20Dataset%20-%20Hamilton%20City%20Council/FeatureServer",
                 "format": "Esri REST",
                 "title": "Esri Rest API"
-            },
-            {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/f8fb2864d9a745b59152afb0ea4ca2ae_0.geojson?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "GeoJSON",
-                "title": "GeoJSON"
-            },
-            {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/f8fb2864d9a745b59152afb0ea4ca2ae_0.csv?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "CSV",
-                "title": "CSV"
-            },
-            {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/f8fb2864d9a745b59152afb0ea4ca2ae_0.kml?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "KML",
-                "title": "KML"
-            },
-            {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/f8fb2864d9a745b59152afb0ea4ca2ae_0.zip?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "ZIP",
-                "title": "Shapefile"
-            }
-        ]
-    },
-    {
-        "title": "DOC Sanctuaries to Protect Marine Mammals",
-        "description": "default description",
-        "identifier": "http://doc-deptconservation.opendata.arcgis.com/datasets/abf12dd2f4cd43b3a7fdfc5a0a2ad2c9_0",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            " conservation",
-            "doc",
-            "doc areas",
-            "marine",
-            "marine mammals",
-            "protection",
-            "sanctuaries",
-            "opendata"
-        ],
-        "issued": "2017-11-07T01:47:18.000Z",
-        "modified": "2020-03-06T06:08:20.000Z",
-        "publisher": {
-            "name": "Department of Conservation"
-        },
-        "contactPoint": {
-            "fn": "DOC_admin",
-            "hasEmail": "geodata@doc.govt.nz"
-        },
-        "landingPage": "http://doc-deptconservation.opendata.arcgis.com/datasets/abf12dd2f4cd43b3a7fdfc5a0a2ad2c9_0",
-        "theme": "[\"geospatial\"]",
-        "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[165.2693, -52.483], [-177.6453, -52.483], [-177.6453, -29.0133], [165.2693, -29.0133], [165.2693, -52.483]]]}",
-        "distribution": [
-            {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/abf12dd2f4cd43b3a7fdfc5a0a2ad2c9_0",
-                "format": "HTML",
-                "title": "ArcGIS Hub Dataset"
-            },
-            {
-                "downloadURL": "https://services1.arcgis.com/3JjYDyG3oajxU6HO/arcgis/rest/services/DOC_Marine_Mammal_Sanctuaries/FeatureServer/0",
-                "format": "Esri REST",
-                "title": "Esri Rest API"
-            },
-            {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/abf12dd2f4cd43b3a7fdfc5a0a2ad2c9_0.geojson?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "GeoJSON",
-                "title": "GeoJSON"
-            },
-            {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/abf12dd2f4cd43b3a7fdfc5a0a2ad2c9_0.csv?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "CSV",
-                "title": "CSV"
-            },
-            {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/abf12dd2f4cd43b3a7fdfc5a0a2ad2c9_0.kml?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "KML",
-                "title": "KML"
-            },
-            {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/abf12dd2f4cd43b3a7fdfc5a0a2ad2c9_0.zip?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "ZIP",
-                "title": "Shapefile"
-            }
-        ]
-    },
-    {
-        "title": "DOC Campsites",
-        "description": "epartment of Conservation (DOC) - Campsites. Dataset shows all campsites.",
-        "identifier": "http://doc-deptconservation.opendata.arcgis.com/datasets/c417dcd7c9fb47b489df1f9f0a673190_0",
-        "keyword": [
-            "campervan",
-            "campground",
-            "camping",
-            "campsite",
-            "caravan",
-            "doc",
-            "opendata",
-            "recreation",
-            "tent",
-            "tramping"
-        ],
-        "issued": "2018-09-17T22:44:37.000Z",
-        "modified": "2019-01-29T23:08:20.000Z",
-        "publisher": {
-            "name": "Department of Conservation"
-        },
-        "contactPoint": {
-            "fn": "DOC_admin",
-            "hasEmail": "geodata@doc.govt.nz"
-        },
-        "landingPage": "http://doc-deptconservation.opendata.arcgis.com/datasets/c417dcd7c9fb47b489df1f9f0a673190_0",
-        "theme": "[\"geospatial\"]",
-        "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[166.9127, -47.0005], [178.0493, -47.0005], [178.0493, -34.3239], [166.9127, -34.3239], [166.9127, -47.0005]]]}",
-        "distribution": [
-            {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/c417dcd7c9fb47b489df1f9f0a673190_0",
-                "format": "HTML",
-                "title": "ArcGIS Hub Dataset"
-            },
-            {
-                "downloadURL": "https://services1.arcgis.com/3JjYDyG3oajxU6HO/arcgis/rest/services/DOC_Campsites/FeatureServer/0",
-                "format": "Esri REST",
-                "title": "Esri Rest API"
-            },
-            {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/c417dcd7c9fb47b489df1f9f0a673190_0.geojson?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "GeoJSON",
-                "title": "GeoJSON"
-            },
-            {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/c417dcd7c9fb47b489df1f9f0a673190_0.csv?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "CSV",
-                "title": "CSV"
-            },
-            {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/c417dcd7c9fb47b489df1f9f0a673190_0.kml?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "KML",
-                "title": "KML"
-            },
-            {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/c417dcd7c9fb47b489df1f9f0a673190_0.zip?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "ZIP",
-                "title": "Shapefile"
-            }
-        ]
-    },
-    {
-        "title": "DOC Ecosystem Management Units",
-        "description": "Ecosystem Management Units are places identified as important for management because of the types and condition of the ecosystems and species there. They are usually quite large and often include groups of related ecosystems, which are managed together. Many also include threatened species.",
-        "identifier": "http://doc-deptconservation.opendata.arcgis.com/datasets/2e29f7a4b1f44006a635d3a74fc7e10a_0",
-        "keyword": [
-            "emu",
-            "ecosystem management units",
-            "new zealand",
-            "conservation",
-            "ecosystem",
-            "management",
-            "natural heritage",
-            "units"
-        ],
-        "issued": "2019-07-24T00:40:45.000Z",
-        "modified": "2019-09-17T04:06:45.000Z",
-        "contactPoint": {
-            "fn": "DOC_admin"
-        },
-        "landingPage": "http://doc-deptconservation.opendata.arcgis.com/datasets/2e29f7a4b1f44006a635d3a74fc7e10a_0",
-        "theme": "[\"geospatial\"]",
-        "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[165.2693, -52.483], [-177.6453, -52.483], [-177.6453, -29.0133], [165.2693, -29.0133], [165.2693, -52.483]]]}",
-        "distribution": [
-            {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/2e29f7a4b1f44006a635d3a74fc7e10a_0",
-                "format": "HTML",
-                "title": "ArcGIS Hub Dataset"
-            },
-            {
-                "downloadURL": "https://services1.arcgis.com/3JjYDyG3oajxU6HO/arcgis/rest/services/DOC_Ecosystem_Management_Units/FeatureServer/0",
-                "format": "Esri REST",
-                "title": "Esri Rest API"
-            },
-            {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/2e29f7a4b1f44006a635d3a74fc7e10a_0.geojson?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "GeoJSON",
-                "title": "GeoJSON"
-            },
-            {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/2e29f7a4b1f44006a635d3a74fc7e10a_0.csv?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "CSV",
-                "title": "CSV"
-            },
-            {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/2e29f7a4b1f44006a635d3a74fc7e10a_0.kml?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "KML",
-                "title": "KML"
-            },
-            {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/2e29f7a4b1f44006a635d3a74fc7e10a_0.zip?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "ZIP",
-                "title": "Shapefile"
-            }
-        ]
-    },
-    {
-        "title": "DOC Huts",
-        "description": "Department of Conservation (DOC) - Huts and bivvies. Dataset shows all huts and bivvies.",
-        "identifier": "http://doc-deptconservation.opendata.arcgis.com/datasets/7f7321caf77b4101b9573db4575dd794_0",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "keyword": [
-            "bivvy",
-            "doc",
-            "great walk",
-            "hut",
-            "opendata",
-            "recreation",
-            "tramping"
-        ],
-        "issued": "2018-09-17T22:45:59.000Z",
-        "modified": "2019-01-17T21:45:11.000Z",
-        "publisher": {
-            "name": "Department of Conservation"
-        },
-        "contactPoint": {
-            "fn": "DOC_admin",
-            "hasEmail": "geodata@doc.govt.nz"
-        },
-        "landingPage": "http://doc-deptconservation.opendata.arcgis.com/datasets/7f7321caf77b4101b9573db4575dd794_0",
-        "theme": "[\"geospatial\"]",
-        "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[166.5517, -47.142], [-177.6183, -47.142], [-177.6183, -34.6473], [166.5517, -34.6473], [166.5517, -47.142]]]}",
-        "distribution": [
-            {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/7f7321caf77b4101b9573db4575dd794_0",
-                "format": "HTML",
-                "title": "ArcGIS Hub Dataset"
-            },
-            {
-                "downloadURL": "https://services1.arcgis.com/3JjYDyG3oajxU6HO/arcgis/rest/services/DOC_Huts/FeatureServer/0",
-                "format": "Esri REST",
-                "title": "Esri Rest API"
-            },
-            {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/7f7321caf77b4101b9573db4575dd794_0.geojson?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "GeoJSON",
-                "title": "GeoJSON"
-            },
-            {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/7f7321caf77b4101b9573db4575dd794_0.csv?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "CSV",
-                "title": "CSV"
-            },
-            {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/7f7321caf77b4101b9573db4575dd794_0.kml?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "KML",
-                "title": "KML"
-            },
-            {
-                "downloadURL": "http://doc-deptconservation.opendata.arcgis.com/datasets/7f7321caf77b4101b9573db4575dd794_0.zip?outSR={\"latestWkid\":2193,\"wkid\":2193}",
-                "format": "ZIP",
-                "title": "Shapefile"
             }
         ]
     }
