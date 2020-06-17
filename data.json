@@ -26,7 +26,6 @@
         "landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/d75feb6d777346fbac82b6632a8bde70_0",
         "accrualPeriodicity": "irregular",
         "theme": "Local Authority",
-        "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[175.14, -37.69], [175.34, -37.69], [175.34, -37.83], [175.14, -37.83], [175.14, -37.69]]]}",
         "distribution": [
             {
                 "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/d75feb6d777346fbac82b6632a8bde70_0",
@@ -72,7 +71,6 @@
         "landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/5556de7b1d6d43ac8222fd5ca2b16be3_0",
         "accrualPeriodicity": "irregular",
         "theme": "Local Authority",
-        "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[175.14, -37.69], [175.34, -37.69], [175.34, -37.83], [175.14, -37.83], [175.14, -37.69]]]}",
         "distribution": [
             {
                 "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/5556de7b1d6d43ac8222fd5ca2b16be3_0",
@@ -118,7 +116,6 @@
         "landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/11bf0327485d48708890ee1eec474b4f_0",
         "accrualPeriodicity": "irregular",
         "theme": "Local Authority",
-        "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[175.14, -37.69], [175.34, -37.69], [175.34, -37.83], [175.14, -37.83], [175.14, -37.69]]]}",
         "distribution": [
             {
                 "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/11bf0327485d48708890ee1eec474b4f_0",
@@ -164,7 +161,6 @@
         "landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/eac092ca5a1b45a8a21262679c9c2299_0",
         "accrualPeriodicity": "irregular",
         "theme": "Local Authority",
-        "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[175.14, -37.69], [175.34, -37.69], [175.34, -37.83], [175.14, -37.83], [175.14, -37.69]]]}",
         "distribution": [
             {
                 "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/eac092ca5a1b45a8a21262679c9c2299_0",
